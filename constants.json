@@ -1,0 +1,143 @@
+{
+    "physics": {
+        "G": {
+            "symbol": "G",
+            "value":6.67428e-11,
+            "unit": "m3 kg-1 s-2",
+            "description": "gravitational constant",
+            "source": "IAU"
+        },
+        "c": {
+            "symbol": "c",
+            "value": 299792458,
+            "unit": "m/s",
+            "description": "speed of light in vacuum",
+            "source": "SI"
+        },
+        "h": {
+            "symbol": "h",
+            "value": 6.62607015e-34,
+            "unit": "J s",
+            "description": "Planck constant",
+            "source": "SI"
+        },
+        "k": {
+            "symbol": "k",
+            "value": 1.380649e-23,
+            "unit": "J K-1",
+            "description": "Boltzmann constant",
+            "source": "SI"
+        },
+        "NA": {
+            "symbol": "N_A",
+            "value": 6.02214076e23,
+            "unit": "mol-1",
+            "description": "Avogadro constant",
+            "source": "SI"
+        }
+    },
+    "earth": {
+        "a": {
+            "symbol": "a",
+            "value": 6378137.0,
+            "unit": "m",
+            "description": "semi-major axis",
+            "source": "WGS"
+        },
+        "fi": {
+            "symbol": "f⁻¹",
+            "value": 298.257223563,
+            "unit": "1",
+            "description": "inverse flattening",
+            "source": "WGS"
+        },
+        "theta0": {
+            "symbol": "θ₀",
+            "value": 0.7790572732640,
+            "unit": "rev",
+            "description": "rotation @J2000",
+            "source": "IAU"
+        },
+        "Omega": {
+            "symbol": "Ω",
+            "value": 1.002737811911355,
+            "unit": "rev UT1day-1",
+            "description": "angular speed",
+            "source": "IAU"
+        },
+        "epsilon": {
+            "symbol": "ε",
+            "value": 84381.406,
+            "unit": "arcsecond",
+            "description": "obliquity of the ecliptic @J2000",
+            "source": "IAU"
+        },
+        "mu": {
+            "symbol": "μ",
+            "value": 3986004.415e8,
+            "unit": "m3 s-2",
+            "description": "gravitational parameter",
+            "source": "EGM"
+        },
+        "mS/mE": {
+            "symbol": "mS/mE",
+            "value": 332946.0487,
+            "unit": "1",
+            "description": "sun to earth mass ratio",
+            "source": "IAU"
+        },
+        "au": {
+            "symbol": "au",
+            "value": 149597870700,
+            "unit": "m",
+            "description": "astronomical unit",
+            "source": "IAU"
+        },
+        "g0": {
+            "symbol": "g₀",
+            "value": 980.665,
+            "unit": "cm s-2",
+            "description": "standard gravity",
+            "source": "CGPM"
+        },
+        "Cbar20": {
+            "symbol": "C̅₂₀",
+            "value": -0.484165143790815e-3,
+            "unit": "1",
+            "description": "fully normalized unitless spherical harmonic coefficient of gravitational potential C, degree 2, order 0",
+            "source": "EGM"
+        }
+    },
+    "references": {
+        "SI": {
+            "name": "Système international d'unités",
+            "year": 2019,
+            "url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+        },
+        "WGS": {
+            "name": "World Geodetic System",
+            "year": 1984,
+            "url": "https://apps.dtic.mil/sti/pdfs/ADA280358.pdf"
+        },
+        "EGM": {
+            "name": "Earth Gravitational Model",
+            "year": 2008,
+            "url": "https://earth-info.nga.mil → [EGM2008 Spherical Harmonics]"
+        },
+        "IAU": {
+            "name": "International Astronomical Union",
+            "year": 2012,
+            "url": "https://aa.usno.navy.mil/downloads/publications/Constants_2021.pdf"
+        },
+        "CGPM": {
+            "name": "Conférence générale des poids et mesures",
+            "year": 1901,
+            "url": "https://www.bipm.org/documents/20126/38096616/3rd+CGPM+%281901%29/9993082b-5a57-0b7e-1dfd-ea3245536d94"
+        },
+        "CODATA": {
+            "name": "International Science Council - Committee on Data",
+            "year": 2018,
+            "url": "https://physics.nist.gov/cuu/pdf/wall_2018.pdf"
+        }
+    }
+}
