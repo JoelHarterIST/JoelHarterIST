@@ -1,107 +1,92 @@
 {
     "physics": {
         "G": {
-            "symbol": "G",
             "value":6.67428e-11,
-            "unit": "m3 kg-1 s-2",
+            "unit": "m³ kg⁻¹ s⁻²",
             "description": "gravitational constant",
             "source": "IAU"
         },
         "c": {
-            "symbol": "c",
             "value": 299792458,
-            "unit": "m/s",
-            "description": "speed of light in vacuum",
+            "unit": "m s⁻¹",
+            "description": "speed of light",
             "source": "SI"
         },
         "h": {
-            "symbol": "h",
             "value": 6.62607015e-34,
             "unit": "J s",
             "description": "Planck constant",
             "source": "SI"
         },
         "k": {
-            "symbol": "k",
             "value": 1.380649e-23,
-            "unit": "J K-1",
+            "unit": "J K⁻¹",
             "description": "Boltzmann constant",
             "source": "SI"
         },
-        "NA": {
-            "symbol": "N_A",
+        "N_A": {
             "value": 6.02214076e23,
-            "unit": "mol-1",
+            "unit": "mol⁻¹",
             "description": "Avogadro constant",
             "source": "SI"
         }
     },
     "earth": {
         "a": {
-            "symbol": "a",
             "value": 6378137.0,
             "unit": "m",
             "description": "semi-major axis",
             "source": "WGS"
         },
-        "fi": {
-            "symbol": "f⁻¹",
+        "f⁻¹": {
             "value": 298.257223563,
             "unit": "1",
             "description": "inverse flattening",
             "source": "WGS"
         },
-        "theta0": {
-            "symbol": "θ₀",
+        "θ₀": {
             "value": 0.7790572732640,
             "unit": "rev",
             "description": "rotation @J2000",
             "source": "IAU"
         },
-        "Omega": {
-            "symbol": "Ω",
+        "Ω": {
             "value": 1.002737811911355,
-            "unit": "rev UT1day-1",
+            "unit": "rev D⁻¹",
             "description": "angular speed",
             "source": "IAU"
         },
-        "epsilon": {
-            "symbol": "ε",
+        "ε": {
             "value": 84381.406,
-            "unit": "arcsecond",
+            "unit": "″",
             "description": "obliquity of the ecliptic @J2000",
             "source": "IAU"
         },
-        "mu": {
-            "symbol": "μ",
+        "μ": {
             "value": 3986004.415e8,
-            "unit": "m3 s-2",
+            "unit": "m³ s⁻²",
             "description": "gravitational parameter",
             "source": "EGM"
         },
         "mS/mE": {
-            "symbol": "mS/mE",
             "value": 332946.0487,
             "unit": "1",
             "description": "sun to earth mass ratio",
             "source": "IAU"
         },
         "au": {
-            "symbol": "au",
             "value": 149597870700,
             "unit": "m",
             "description": "astronomical unit",
             "source": "IAU"
         },
-        "g0": {
-            "symbol": "g₀",
+        "g₀": {
             "value": 980.665,
-            "unit": "cm s-2",
+            "unit": "cm s⁻²",
             "description": "standard gravity",
             "source": "CGPM"
         },
-        "Cbar20": {
-            "symbol": "C̅₂₀",
+        "C̅₂₀": {
             "value": -0.484165143790815e-3,
             "unit": "1",
             "description": "fully normalized unitless spherical harmonic coefficient of gravitational potential C, degree 2, order 0",
